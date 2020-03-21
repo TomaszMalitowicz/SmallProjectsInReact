@@ -1,0 +1,38 @@
+div {
+    line-height: 50px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    background-color: #fff;
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    outline: none;
+}
+
+/* button:nth-last-of-type() {
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    width: auto;
+    height: 50px;
+    cursor: pointer;
+    outline: none;
+    transition: .3s;
+}
+button:nth-of-type(3):hover{
+    background-color: #fff;
+    color: black;
+    border: 2px solid black;
+} */
+
+button:disabled{
+    opacity: 0.3;
+}

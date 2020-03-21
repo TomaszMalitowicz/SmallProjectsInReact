@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+    overflow: hidden;
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+    font-size: 50px;
+}
+
+input[type='text'], button{
+    padding: 10px 30px;
+    border: black 2px solid;
+    font-size: 30px;
+    outline: none;
+}

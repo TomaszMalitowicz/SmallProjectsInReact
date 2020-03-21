@@ -1,0 +1,43 @@
+ * {
+     margin: 0;
+     padding:0;
+     box-sizing: border-box;
+ }
+
+ .wrapper {
+background-color: #000;
+    /* filter: blur(10px); */
+    z-index: 0;
+ }
+
+ .main {
+    background-image: url(HIXOIOSQZFGCZO7UBXWOJ6GOWI.jpg);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    max-width: 1400px;
+    color: white;
+    height: 100vh;
+    color:rgb(224, 54, 54);
+    z-index: 1;
+    filter: blur(0px);
+ }
+
+ button {
+     margin: 5px;
+     padding: 7px 30px;
+     color: red;
+     background-color: #000;
+     border: 2px solid red;
+     transition: .2s;
+     font-weight: bold;
+     text-transform: uppercase;
+     z-index: 1;
+ }
+ button:hover {
+     background-color: #f00;
+     color: black;
+     z-index: 1;
+ }
